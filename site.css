@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+mapboxgl-map {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.brand {
+	position: absolute;
+	left: 50%;
+	margin-left: -50px !important; /* 50% of your logo width */
+	display: block;
+}
+.search-bar {
+	position: absolute;
+	right: 10%;
+	margin-right: -50px !important; /* 50% of your logo width */
+	display: block;
+}
+.navbar {
+	position: relative;
+	height: 100px;
+}
+.marker {
+	background-image: url("./marker.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.navbar-signin-tag-button {
+	position: absolute;
+	left: 10%;
+	bottom: calc(50% - 18px);
+}
+body {
+	background-size: cover;
+}
+.pinModal {
+	position: absolute;
+	width: 95%;
+}
+.Pfp-Uploader {
+	width: 170px;
+	height: 170px;
+}
+.pointer {
+	cursor: pointer;
+}
+.btn-success-custom {
+	background-color: #40d4bb;
+	color: #fff;
+}
+.btn-success-custom:hover {
+	background-color: #216869;
+	color: #fff;
+}
+.btn-success-custom:focus {
+	background-color: #216869;
+	color: #fff;
+}
+#filter-menu-custom {
+	box-shadow: none;
+	border: none;
+}
+.userdata-modal {
+	border-radius: 20px;
+	height: 700px;
+	width: 1000px;
+}
+.box-holder {
+	/* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=0); 
+	-moz-opacity: 0;
+	-khtml-opacity: 0; 
+	opacity: 0; */
+	height: 8%;
+	width: 100%;
+	top: 0;
+	left: 0;
+
+	border-bottom: 1px solid rgba(34, 34, 34, 0.19);
+}
+.active {
+	background-color: #fff;
+	color: "#40D4BB";
+}
+.box-text {
+	position: relative;
+
+	top: 25%;
+
+	/*
+	left: 75%;
+	transform: translate(-50%, -50%); */
+	font-family: "Inter", sans-serif;
+}
+.closebtn-user {
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.main-content-profile {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.user-details-container {
+}
+.user-details-photo {
+	width: 80px;
+	height: 80px;
+	overflow: visible;
+	background-size: cover;
+	border-radius: 50px;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+	border: 3px solid rgb(116, 116, 116);
+	background-position: center center;
+}
+.user-details-nickname {
+	overflow: visible;
+	font-family: "Inter-Bold", "Inter", sans-serif;
+
+	font-size: 27px;
+	letter-spacing: 0px;
+
+	font-weight: 700;
+}
+.user-details-fullname {
+	width: 150px;
+	height: 25px;
+	overflow: visible;
+	font-family: "Inter-SemiBold", "Inter", sans-serif;
+	color: #ffffff;
+	font-size: 17px;
+	letter-spacing: 0px;
+	line-height: 1.2;
+	font-weight: 600;
+}
+.user-details-joinedAt {
+	width: 173px;
+	height: 21px;
+	overflow: visible;
+	font-family: "Inter", sans-serif;
+	color: rgba(255, 255, 255, 0.79);
+	font-size: 15px;
+	letter-spacing: 0px;
+	line-height: 1.2;
+}
+.recent-tags-text {
+	width: 95px;
+	height: 19px;
+	overflow: visible;
+	font-family: "Inter", sans-serif;
+	color: #b8b8b8;
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 1.2;
+	position: relative;
+	left: 4%;
+	top: 0%;
+}
+.recent-tags-frame {
+	overflow-y: auto;
+	overflow-x: hidden;
+	border-radius: 10px;
+}
+.recent-tags-title {
+	width: 182px;
+	height: 28px;
+	overflow: visible;
+	font-family: "Inter-Bold", "Inter", sans-serif;
+	color: rgba(0, 0, 0, 0.25);
+	font-size: 18px;
+	letter-spacing: 0px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+.recent-tags-description {
+	overflow: visible;
+	font-family: "Inter-Bold", "Inter", sans-serif;
+	color: rgba(0, 0, 0, 0.25);
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 1;
+	font-weight: 700;
+	top: 15px;
+	word-wrap: break-word;
+	position: relative;
+}
+.recent-tags-time {
+	width: 73px;
+	height: 18px;
+	overflow: visible;
+	font-family: "Inter-ExtraBold", "Inter", sans-serif;
+	color: rgba(0, 0, 0, 0.25);
+	font-size: 15px;
+	letter-spacing: 0px;
+	line-height: 1.2;
+	font-weight: 800;
+}
